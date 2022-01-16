@@ -1,0 +1,63 @@
+body{
+  margin: 0px;
+  background-color: rgb(87, 65, 116);
+}
+table {
+  margin: 10% auto;
+  width: 80%;
+  font-size: 15px;
+  border-collapse: collapse;
+  border: 1px rgb(221, 221, 221);
+  /* //padding: 20px; */
+  text-align: center;
+}
+table th {
+  color: white;
+  height: 50px;
+  background-color: #1b0a77;
+}
+
+tr:nth-child(even) {
+  color: whitesmoke;
+  background-color: #2e2e2e;
+}
+
+tr:nth-child(odd) {
+  color: whitesmoke;
+  background-color: #2e2e2e;
+}
+
+td {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+input[name="delete_beneficiary"] {
+  color: white;
+  font-size: 15px;
+  background-color: #005f7d;
+  border-radius: 3px;
+  box-shadow: 0px 2px black;
+  border: 0px;
+  display: block;
+  margin: 0px auto;
+  margin-top: -5%;
+  margin-bottom: 5%;
+  padding: 1%;
+  cursor: pointer;
+}
+
+input[name="go_back"] {
+  color: white;
+  font-size: 15px;
+  background-color: #1b0a77;
+  border-radius: 3px;
+  box-shadow: 0px 2px black;
+  border: 0px;
+  display: block;
+  margin: 0px auto;
+  margin-top: -5%;
+  margin-bottom: 5%;
+  padding: 1%;
+  cursor: pointer;
+}

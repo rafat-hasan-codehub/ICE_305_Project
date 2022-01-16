@@ -1,0 +1,41 @@
+ body {
+    margin: 0px;
+      background-color: rgb(87, 65, 116);
+  }
+.active_customers_container {
+  margin: 5% auto;
+  overflow-x: auto;
+  overflow-y: auto;
+  width: 80%;
+  background-color: #2e2e2e;
+  height: 80%;
+}
+
+table {
+  width: 200%;
+  font-size: 15px;
+  border-collapse: collapse;
+  border: 1px rgb(221, 221, 221);
+  /* //padding: 20px; */
+  text-align: center;
+}
+table th {
+  color: white;
+  height: 50px;
+  background-color:#380864c2;
+}
+
+tr:nth-child(even) {
+  color: white;
+  background-color: #2e2e2e;
+}
+
+tr:nth-child(odd) {
+  background-color: rgba(124, 124, 124, 0.808);
+   color: white;
+}
+
+td {
+  padding-left: 40px;
+  padding-right: 40px;
+}

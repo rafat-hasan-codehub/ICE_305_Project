@@ -1,0 +1,33 @@
+body {
+    margin: 0px;
+      background-color: rgb(87, 65, 116);
+  }
+.cust_credit_container {
+  padding: 2%;
+  background-color: #2e2e2e;;
+  width: 28%;
+  margin: 3% auto;
+  text-align: center;
+  color: rgb(5, 21, 71);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.cust_credit_container input {
+  padding: 3%;
+  margin: 2%;
+  width: 60%;
+}
+
+.cust_credit_container input[type="submit"] {
+  background-color:#380864c2;
+  border: 0px;
+  color: white;
+  font-size: 2.5vh;
+  transition: 0.5s;
+  border-bottom: 3px solid black;
+}
+
+.cust_credit_container input[type="submit"]:hover {
+  cursor: pointer;
+  background-color: #1b0a77;
+}

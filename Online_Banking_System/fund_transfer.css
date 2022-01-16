@@ -1,0 +1,64 @@
+body{
+  margin: 0px;
+  background-color: rgb(87, 65, 116);
+}
+.fundtransfer_conainer {
+  background-color: #2e2e2e;
+  width: 35%;
+  margin: 5% auto;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.6);
+}
+
+.fundtransfer_conainer span {
+  display: inline-block;
+  color: whitesmoke;
+  width: 100%;
+  text-align: center;
+}
+
+.fundtransfer_conainer input[type="text"],
+select {
+  /* //background-color: cadetblue; */
+  padding: 2%;
+  width: 60%;
+  margin: 1% auto;
+  display: block;
+}
+.beneficiary_btn {
+  width: 100%;
+  text-align: center;
+}
+
+.beneficiary_btn input[class="beneficiary"] {
+  /* //font-size: 2.2vh; */
+  color: white;
+  padding: 1.5%;
+  margin: 1% auto;
+  background-color: #1b0a77;
+  border: 0px;
+  border-radius: 10px;
+}
+.beneficiary_btn input[type="submit"]:hover {
+  cursor: pointer;
+  background-color: #380864c2;
+}
+input[name="fnd_trns_btn"] {
+  color: white;
+  font-size: 15px;
+  background-color: #380864c2;
+  border-radius: 3px;
+  box-shadow: 0px 3px black;
+  border: 0px;
+  display: block;
+  margin: 0px auto;
+  width: 60%;
+  padding: 2%;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+input[name="fnd_trns_btn"]:hover {
+  cursor: pointer;
+  background-color: rgba(11, 30, 89, 0.8);
+}

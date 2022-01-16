@@ -1,0 +1,45 @@
+Purple  background-color: rgb(87, 65, 116);
+black  background-color: #2e2e2e;
+
+button   background-color:#380864c2;
+#1b0a77;
+
+
+    background-color: rgb(87, 65, 116);
+   background-color: rgba(84, 13, 126, 0.877);
+  background-color: #2e2e2e;
+color: rgb(212, 197, 197);
+
+table th background-color:#380864c2;
+
+tr:nth-child(even) {
+  color: white;
+  background-color: #2e2e2e;
+}
+
+tr:nth-child(odd) {
+  background-color: rgba(124, 124, 124, 0.808);
+   color: white;
+
+
+.cust_credit_container input[type="submit"] {
+  background-color:#380864c2;
+  border: 0px;
+  color: white;
+  font-size: 2.5vh;
+  transition: 0.5s;
+  border-bottom: 3px solid black;
+}
+
+.cust_credit_container input[type="submit"]:hover {
+  cursor: pointer;
+  background-color: #1b0a77;
+}
+
+cursor: pointer;
+  background-color: rgba(11, 30, 89, 0.8);
+
+body{
+  margin: 0px;
+  background-color: rgb(87, 65, 116);
+}

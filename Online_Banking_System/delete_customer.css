@@ -1,0 +1,41 @@
+body{
+  margin: 0px;
+  background-color: rgb(87, 65, 116);
+}
+.delete_customer_container_heading {
+  width: 40%;
+  width: 100%;
+  text-align: center;
+  margin: 1.5%;
+  font-size: 3vh;
+}
+.delete_customer_container {
+  padding: 2%;
+  background-color: #2e2e2e;
+  width: 30%;
+  margin: 2% auto;
+  text-align: center;
+  color: rgba(124, 124, 124, 0.808);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.delete_customer_container input {
+  font-size: 2vh;
+  width: 60%;
+  padding: 2%;
+  margin: 2%;
+}
+
+.delete_customer_container input[type="submit"] {
+  background-color: #380864c2;
+  border: 0px;
+  color: white;
+  font-size: 2.5vh;
+  transition: 0.5s;
+  border-bottom: 3px solid black;
+}
+
+.delete_customer_container input[type="submit"]:hover {
+  cursor: pointer;
+  background-color: #1b0a77;
+}
